@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: ghimireasmit/php-hello-world:latest
+    ports:
+      - "80:80"
